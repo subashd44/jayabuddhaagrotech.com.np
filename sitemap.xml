@@ -2,92 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     
-    <!-- Homepage / Main Landing Page -->
+    <!-- Homepage / Main Landing Page (Single Page Application) -->
     <url>
         <loc>https://jayabuddhaagrotech.com.np/</loc>
         <lastmod>2026-08-26</lastmod>
-        <changefreq>daily</changefreq>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         
-        <!-- Key Product & Brand Images for Google Image Indexing -->
+        <!-- Brand Logo -->
         <image:image>
             <image:loc>https://jayabuddhaagrotech.com.np/assets/img/logo.png</image:loc>
-            <image:title>Jayabuddha Agrotech Official Logo</image:title>
-            <image:caption>Jayabuddha Agrotech Organic Honey &amp; Sustainable Agriculture Chitwan Nepal</image:caption>
+            <image:title>Jayabuddha Agrotech Official Logo - Best Organic Honey Nepal</image:title>
+            <image:caption>Jayabuddha Agrotech official logo - leading organic honey producer and agriculture company in Bharatpur Chitwan Nepal</image:caption>
         </image:image>
+
+        <!-- Hero / About Image -->
         <image:image>
             <image:loc>https://jayabuddhaagrotech.com.np/assets/img/about-honey.png</image:loc>
-            <image:title>Pure Honey Pouring &amp; Honeybee</image:title>
-            <image:caption>Pure organic honey harvested from pristine Chitwan forests</image:caption>
+            <image:title>Pure Organic Honey Pouring with Honeybee Nepal</image:title>
+            <image:caption>Pure organic honey pouring from wooden dipper with honeybee - Jayabuddha Agrotech Chitwan Nepal organic beekeeping</image:caption>
         </image:image>
-        <image:image>
-            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_1.jpg</image:loc>
-            <image:title>Pure Organic Honey Jar Nepal</image:title>
-            <image:caption>Jayabuddha Pure Organic Honey Jar</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_25.jpg</image:loc>
-            <image:title>Natural Propolis Extract Nepal</image:title>
-            <image:caption>High potency raw bee propolis extract for immunity</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/royal-jelly.png</image:loc>
-            <image:title>Fresh Royal Jelly Bottle Nepal</image:title>
-            <image:caption>Fresh Royal Jelly 50g luxury jar with active 10-HDA</image:caption>
-        </image:image>
-        <image:image>
-            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_26.jpg</image:loc>
-            <image:title>Organic Bee Pollen Nepal</image:title>
-            <image:caption>High protein nutrient-dense Himalayan bee pollen</image:caption>
-        </image:image>
+
+        <!-- CEO / Leadership -->
         <image:image>
             <image:loc>https://jayabuddhaagrotech.com.np/assets/img/ceo.jpg</image:loc>
-            <image:title>Jayabuddha Agrotech Founder &amp; CEO</image:title>
-            <image:caption>30+ Years Leader in Apiculture &amp; Organic Agriculture Nepal</image:caption>
+            <image:title>Jayabuddha Agrotech Founder and CEO - Agricultural Leader Nepal</image:title>
+            <image:caption>Former Joint Secretary Ministry of Agriculture Nepal - 30+ years apiculture and organic farming leadership</image:caption>
+        </image:image>
+
+        <!-- Royal Jelly Product -->
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/royal-jelly.png</image:loc>
+            <image:title>Fresh Royal Jelly Nepal - Buy Royal Jelly Online</image:title>
+            <image:caption>Fresh harvest 10-HDA rich queen bee royal jelly 50g luxury jar from Jayabuddha Agrotech Nepal</image:caption>
+        </image:image>
+
+        <!-- Product Gallery: Organic Honey -->
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_1.jpg</image:loc>
+            <image:title>Best Pure Organic Honey Jar Nepal</image:title>
+            <image:caption>Best pure organic honey jar from Jayabuddha Agrotech Chitwan Nepal - buy honey online</image:caption>
+        </image:image>
+
+        <!-- Product Gallery: Propolis -->
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_25.jpg</image:loc>
+            <image:title>Natural Raw Bee Propolis Extract Nepal</image:title>
+            <image:caption>Natural raw bee propolis extract for immunity and health - buy propolis Nepal Jayabuddha Agrotech</image:caption>
+        </image:image>
+
+        <!-- Product Gallery: Bee Pollen -->
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_26.jpg</image:loc>
+            <image:title>Organic Bee Pollen Superfood Nepal</image:title>
+            <image:caption>Organic bee pollen superfood with 250+ nutrients - high protein superfood Nepal Jayabuddha Agrotech</image:caption>
+        </image:image>
+
+        <!-- Gallery Images for Google Image Search -->
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_2.jpg</image:loc>
+            <image:title>Raw Forest Honey Harvesting Chitwan Nepal</image:title>
+            <image:caption>Raw forest honey harvesting process at Jayabuddha Agrotech organic bee farm Chitwan Nepal</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_3.jpg</image:loc>
+            <image:title>Organic Beekeeping Apiculture Farm Bharatpur</image:title>
+            <image:caption>Organic beekeeping and modern apiculture farm in Bharatpur Chitwan Nepal - sustainable bee farming</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_4.jpg</image:loc>
+            <image:title>Natural Multiflora Honey Collection Nepal</image:title>
+            <image:caption>Natural multiflora honey collection from diverse Chitwan valley flora - premium quality honey Nepal</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_5.jpg</image:loc>
+            <image:title>Premium Honey Products Range Jayabuddha</image:title>
+            <image:caption>Premium honey products range from Jayabuddha Agrotech - organic honey propolis royal jelly bee pollen Nepal</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_6.jpg</image:loc>
+            <image:title>Bee Farm Honey Production Facility Chitwan</image:title>
+            <image:caption>Bee farm and honey production facility in Chitwan Nepal - sustainable organic beekeeping operation</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_7.jpg</image:loc>
+            <image:title>Apiculture Training Program Nepal</image:title>
+            <image:caption>Sustainable apiculture and beekeeping training program for farmers in Nepal - Jayabuddha Agrotech</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_8.jpg</image:loc>
+            <image:title>Organic Honey Packaging Quality Control Nepal</image:title>
+            <image:caption>Organic honey packaging and quality control process at Jayabuddha Agrotech production facility Nepal</image:caption>
         </image:image>
     </url>
 
-    <!-- Main Section Anchor Deep Links -->
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#about</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#products</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#services</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#nursery</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#gallery</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#faq</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.85</priority>
-    </url>
-    <url>
-        <loc>https://jayabuddhaagrotech.com.np/#contact</loc>
-        <lastmod>2026-08-26</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
 </urlset>

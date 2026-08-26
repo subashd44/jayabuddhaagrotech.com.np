@@ -1,0 +1,10 @@
+# Cloudflare Pages Redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Redirect www to non-www (canonical)
+https://www.jayabuddhaagrotech.com.np/* https://jayabuddhaagrotech.com.np/:splat 301
+
+# Redirect common typo paths
+/home /  301
+/index /  301
+/index.html /  301
