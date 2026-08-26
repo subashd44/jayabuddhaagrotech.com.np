@@ -58,40 +58,155 @@
     <!-- External Modular Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Schema.org Structured Data -->
+    <!-- Schema.org Comprehensive Enterprise Multi-Schema Graph -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Jayabuddha Agrotech",
-        "image": "https://jayabuddhaagrotech.com.np/assets/img/logo.png",
-        "url": "https://jayabuddhaagrotech.com.np",
-        "telephone": "+9779851159148",
-        "email": "jayabuddhaagrotech@gmail.com",
-        "priceRange": "$$",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Bharatpur-7, Buddhachowk",
-            "addressLocality": "Bharatpur",
-            "addressRegion": "Chitwan",
-            "postalCode": "44200",
-            "addressCountry": "NP"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 27.616967,
-            "longitude": 84.202246
-        },
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
-            "opens": "08:00",
-            "closes": "18:00"
-        },
-        "sameAs": [
-            "https://www.facebook.com/jayabuddhaagrotech",
-            "https://www.instagram.com/jayabuddhaagrotech",
-            "https://www.youtube.com/@jayabuddhaagrotech"
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "@id": "https://jayabuddhaagrotech.com.np/#organization",
+                "name": "Jayabuddha Agrotech",
+                "alternateName": "Jayabuddha Agrotech Nepal",
+                "image": "https://jayabuddhaagrotech.com.np/assets/img/logo.png",
+                "url": "https://jayabuddhaagrotech.com.np",
+                "telephone": "+9779851159148",
+                "email": "jayabuddhaagrotech@gmail.com",
+                "priceRange": "$$",
+                "currenciesAccepted": "NPR, USD",
+                "paymentAccepted": "Cash, Mobile Wallet, Bank Transfer",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Bharatpur-7, Buddhachowk",
+                    "addressLocality": "Bharatpur",
+                    "addressRegion": "Chitwan",
+                    "postalCode": "44200",
+                    "addressCountry": "NP"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 27.616967,
+                    "longitude": 84.202246
+                },
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sunday"],
+                    "opens": "08:00",
+                    "closes": "18:00"
+                },
+                "sameAs": [
+                    "https://www.facebook.com/jayabuddhaagrotech",
+                    "https://www.instagram.com/jayabuddhaagrotech",
+                    "https://www.youtube.com/@jayabuddhaagrotech",
+                    "https://www.tiktok.com/@jayabuddhaagrotech"
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://jayabuddhaagrotech.com.np/#leadership",
+                "name": "Chief Executive Officer",
+                "jobTitle": "CEO & Agricultural Visionary",
+                "worksFor": { "@id": "https://jayabuddhaagrotech.com.np/#organization" },
+                "description": "Former Joint Secretary of Ministry of Agriculture (Nepal) & Former Secretary of Agriculture Ministry (Gandaki Province) with 30+ years of apiculture & agricultural leadership."
+            },
+            {
+                "@type": "Product",
+                "name": "Pure Organic Honey Nepal",
+                "image": "https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_1.jpg",
+                "description": "100% pure, raw, unfiltered honey harvested from pristine forests and farms of Chitwan, Nepal.",
+                "brand": { "@type": "Brand", "name": "Jayabuddha Agrotech" },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "NPR",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://jayabuddhaagrotech.com.np/#products"
+                }
+            },
+            {
+                "@type": "Product",
+                "name": "Natural Propolis Extract Nepal",
+                "image": "https://jayabuddhaagrotech.com.np/assets/img/gallery/honey_25.jpg",
+                "description": "Potent antimicrobial and bioflavonoid-rich bee propolis extract harvested in Chitwan, Nepal.",
+                "brand": { "@type": "Brand", "name": "Jayabuddha Agrotech" },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "NPR",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://jayabuddhaagrotech.com.np/#products"
+                }
+            },
+            {
+                "@type": "Product",
+                "name": "Fresh Royal Jelly Nepal",
+                "image": "https://jayabuddhaagrotech.com.np/assets/img/royal-jelly.png",
+                "description": "Fresh harvest 10-HDA rich queen bee royal jelly for vitality and skin cell regeneration.",
+                "brand": { "@type": "Brand", "name": "Jayabuddha Agrotech" },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "NPR",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://jayabuddhaagrotech.com.np/#products"
+                }
+            },
+            {
+                "@type": "Service",
+                "name": "Soil Testing & Agricultural Analysis Nepal",
+                "provider": { "@id": "https://jayabuddhaagrotech.com.np/#organization" },
+                "areaServed": "Bharatpur, Chitwan, Nepal",
+                "description": "Scientific soil composition, NPK nutrient levels, and pH balance analysis for crop yield optimization."
+            },
+            {
+                "@type": "Service",
+                "name": "Apiculture & Agricultural Training Programs",
+                "provider": { "@id": "https://jayabuddhaagrotech.com.np/#organization" },
+                "areaServed": "Nepal",
+                "description": "Practical training for farmers, researchers, and students in modern beekeeping, organic farming, and soil management."
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "What makes Jayabuddha Agrotech honey 100% pure and organic?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Our honey is harvested directly from raw, unpasteurized hives in the pristine forests and organic farms of Chitwan Valley, Nepal. It retains all natural active enzymes, pollen, and propolis without added sugars or artificial heat treatment."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Where is Jayabuddha Agrotech located and how can I order?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Jayabuddha Agrotech is located at Bharatpur-7, Buddhachowk, Chitwan, Nepal. You can visit our farm, nursery, and office, or place direct orders via WhatsApp (+977 9851159148) or our website contact form."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What agricultural services and soil testing does Jayabuddha Agrotech provide?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "We provide comprehensive soil NPK & pH testing, farm planning, beekeeping consultation, and hands-on agricultural training for farmers, researchers, and agriculture students in Nepal."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What are the health benefits of Propolis, Royal Jelly, and Bee Pollen?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Propolis is a potent natural antimicrobial immune shield; Royal Jelly contains 10-HDA for cellular vitality and cognitive health; and Bee Pollen provides over 250 active bioavailable nutrients and proteins for daily stamina."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Who leads Jayabuddha Agrotech?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Jayabuddha Agrotech is led by a former Joint Secretary of the Ministry of Agriculture (Government of Nepal) and former Secretary of the Agriculture Ministry of Gandaki Province, with over 30 years of agricultural leadership."
+                        }
+                    }
+                ]
+            }
         ]
     }
     </script>
@@ -127,6 +242,7 @@
                     <li><a href="#products">Products</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#nursery">Nursery &amp; Farm</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                     <li><a href="#contact" class="nav-cta">Contact Us</a></li>
                 </ul>
                 <button class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
@@ -632,6 +748,74 @@
                     <div class="gallery-item reveal" style="transition-delay: 0.8s">
                         <img src="assets/img/gallery/honey_8.jpg" alt="Honey Product 8" loading="lazy">
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ FAQ SECTION (SEARCH ENGINE RICH SNIPPETS TARGET) ============ -->
+        <section class="section section-alt" id="faq">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Got Questions?</span>
+                    <h2 class="section-title">Frequently Asked <span class="gold">Questions</span></h2>
+                    <div class="section-divider"></div>
+                    <p class="section-desc">
+                        Everything you need to know about our organic honey products, soil testing, and agricultural services in Chitwan, Nepal.
+                    </p>
+                </div>
+
+                <div class="faq-grid reveal">
+                    
+                    <div class="faq-item active">
+                        <button class="faq-question" aria-expanded="true">
+                            <span><i class="fas fa-question-circle gold"></i> What makes Jayabuddha Agrotech honey 100% pure &amp; organic?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Our honey is harvested directly from raw, unpasteurized hives in the pristine forests and organic farms of Chitwan Valley, Nepal. It retains all natural active enzymes, pollen, and propolis without added sugars, preservatives, or artificial heat treatment.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span><i class="fas fa-location-dot gold"></i> Where is Jayabuddha Agrotech located and how can I order?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Jayabuddha Agrotech is headquartered at Bharatpur-7, Buddhachowk, Chitwan, Nepal. You can visit our plant nursery and farm in person, or place direct instant orders online via WhatsApp (+977 9851159148) or our website contact form.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span><i class="fas fa-flask gold"></i> What agricultural support &amp; soil testing services do you provide?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>We provide scientific soil composition analysis (NPK nutrient levels &amp; pH balance), farm planning, beekeeping consultation, and hands-on agricultural research training for farmers, researchers, and agriculture students in Nepal.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span><i class="fas fa-shield-heart gold"></i> What health benefits do Propolis, Royal Jelly, and Bee Pollen provide?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Propolis is a potent natural antimicrobial immune shield; Royal Jelly is rich in 10-HDA for cellular vitality and cognitive health; and Bee Pollen provides over 250 active bioavailable nutrients and proteins for daily stamina.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span><i class="fas fa-user-tie gold"></i> Who leads Jayabuddha Agrotech?</span>
+                            <i class="fas fa-chevron-down faq-icon"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Jayabuddha Agrotech is led by a former Joint Secretary of the Ministry of Agriculture (Government of Nepal) and former Secretary of the Agriculture Ministry of Gandaki Province — bringing over 30 years of expert agricultural leadership and farmer advocacy.</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>

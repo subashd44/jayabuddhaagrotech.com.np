@@ -393,4 +393,31 @@ document.addEventListener('DOMContentLoaded', () => {
             customContactForm.style.display = 'flex';
         });
     }
+
+    // =========================================================================
+    // 7. FAQ ACCORDION INTERACTIVITY
+    // =========================================================================
+    const faqItems = document.querySelectorAll('.faq-item');
+
+    faqItems.forEach(item => {
+        const questionBtn = item.querySelector('.faq-question');
+        if (questionBtn) {
+            questionBtn.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+
+                // Close all other open FAQ items
+                faqItems.forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    const otherBtn = otherItem.querySelector('.faq-question');
+                    if (otherBtn) otherBtn.setAttribute('aria-expanded', 'false');
+                });
+
+                // Toggle clicked item
+                if (!isActive) {
+                    item.classList.add('active');
+                    questionBtn.setAttribute('aria-expanded', 'true');
+                }
+            });
+        }
+    });
 });
