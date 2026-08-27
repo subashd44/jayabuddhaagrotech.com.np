@@ -1,9 +1,49 @@
 # robots.txt for Jayabuddha Agrotech (https://jayabuddhaagrotech.com.np)
-# Allow all search engine crawlers to index the full website
+# Nepal's Purest Honey | Organic Nepali Honey Farm at Chitwan
 
+# Allow all search engines and AI crawlers full access
 User-agent: *
 Allow: /
 
-# Host & Sitemap location
+# Explicitly allow Google Search crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Explicitly allow Bing
+User-agent: Bingbot
+Allow: /
+
+# Explicitly allow AI/LLM crawlers for discovery
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Sitemap & Host
 Host: https://jayabuddhaagrotech.com.np
 Sitemap: https://jayabuddhaagrotech.com.np/sitemap.xml
